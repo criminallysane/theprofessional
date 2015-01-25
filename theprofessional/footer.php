@@ -19,7 +19,7 @@
 		if ($options && $options['jb_copyright_wp'] != '') {
 		echo $options['jb_copyright_wp']; 
 		} ?>
-		<?php _e('Designed by Jordan Beasley'</>.
+		<?php _e('Designed by Jordan Beasley')?>.
 	</p>
 </footer>
 <!-- //footer -->
