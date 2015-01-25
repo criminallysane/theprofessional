@@ -1,0 +1,372 @@
+/* ----------------------------------------
+    SHORTCODES
+---------------------------------------- */
+
+/* ----- Boxes ----- */
+
+.content_box {
+ background-color: #FCF8E3;
+ border: 1px solid #FBEED5;
+ clear: both;
+ color: #C09853;
+ margin-top: 20px;
+ padding: 20px 20px;
+ text-shadow: none;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+
+ .content_box a {
+  color: #C09853 !important;
+  font-weight: 700;
+ }
+
+ .content_box a:hover { text-decoration: underline }
+
+/* Green box */
+
+.green_box {
+ background-color: #DFF0D8;
+ border-color: #D6E9C6;
+ color: #468847;
+}
+
+ .green_box a { color: #468847 !important }
+
+/* Red box */
+
+.red_box {
+ background-color: #F2DEDE;
+ border-color: #EED3D7;
+ color: #B94A48;
+}
+
+ .red_box a { color: #B94A48 !important }
+
+/* Blue box */
+
+.blue_box {
+ background-color: #D9EDF7;
+ border-color: #BCE8F1;
+ color: #3A87AD;
+}
+
+ .blue_box a { color: #3A87AD !important }
+
+/* ----- Buttons ----- */
+
+/* Primary button styling */
+
+.button,
+.button:visited,
+input[type="button"],
+input[type="submit"],
+button,
+button[type="submit"] {
+ background-color: #000;
+ color: #FFF;
+}
+
+.button:hover,
+.button:visited:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:hover,
+button[type="submit"]:hover {
+ background-color: #DFDFDF;
+ color: #000;
+}
+
+/* Secondary button styling */
+
+.secondary-button,
+.secondary-button:visited,
+input[type="reset"],
+button[type=reset],
+input[type="file"] {
+  background: #DDD;
+  color: #555;
+}
+
+.secondary-button:hover,
+.secondary-button:visited:hover,
+.comment-reply-link:hover,
+input[type="reset"]:hover,
+button[type=reset]:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+/* Button alignment styling */
+
+.button.left,
+.secondary-button.left {
+ float: left;
+ margin: 20px 0 0 5px;
+}
+
+.button.right,
+.secondary-button.right {
+ float: right;
+ margin: 20px 0 0 5px;
+}
+
+.button-center { text-align: center }
+
+/* Large button size */
+
+.button.large,
+.secondary-button.large { font-size: 1.2em; }
+
+.button.large { padding: 10px 25px 10px 15px; }
+
+.secondary-button.large { padding: 10px 15px; }
+
+
+/* ---- Clearboth ---- */
+
+.clearboth {
+ clear: both;
+ display: block;
+ font-size: 0;
+ height: 0px;
+ line-height: 0;
+ overflow: hidden;
+ width: 100%;
+}
+
+/* ----- Columns ----- */
+
+.fourth,
+.third,
+.half,
+.two-thirds {
+  position:relative;
+  float: left;
+  margin: 0;
+}
+
+.half { 
+  width:47%; 
+  margin-right:3%; }
+
+.third { 
+  width:30%; 
+  margin-right:3%; }
+
+.two-thirds { 
+  width:60%; 
+  margin-right:3%; }
+
+.fourth { 
+  width:22%; 
+  margin-right:3%;}
+
+.end, .last { margin-right: 0 !important }
+
+/* ----- Dividers ----- */
+
+.hr {
+ border-bottom: 1px dotted #DDD;
+ clear: both;
+ display: block;
+ margin: 20px 0;
+ width: 100%;
+}
+
+.hr.top {
+ background: none;
+ height: auto;
+ clear: both;
+}
+
+.top {
+ font-size: 0.833em;
+ line-height: 10px;
+ position: relative;
+ text-align: right;
+
+}
+
+.top a {
+ color: #999 !important;
+ display: block;
+ height: 20px;
+ padding-left: 17px;
+ position: absolute;
+ right: 0px;
+ top: -5px;
+ width: 20px;
+ background:#fff;
+}
+
+.top a:hover { color: #666 !important }
+
+/* ----- Emphasis ----- */
+
+.emphasis {
+  clear: both;
+ display: block;
+ font-size: 1.333em;
+ line-height: 1.5em;
+ margin: 20px 0;
+}
+
+.page-content > .emphasis:first-child { margin: 20px 0 0 }
+
+.emphasis * { margin-top: 0 }
+
+.emphasis.left { text-align: left }
+
+.emphasis.right { text-align: right }
+
+.emphasis.center { text-align: center }
+
+/* ----- Google map ----- */
+
+.google-map { margin: 20px 0 0 }
+
+/* ----- Highlight ----- */
+
+.highlight {
+ background-color: #FFFF00;
+ color: #111111;
+ padding: 5px;
+}
+
+/* ----- List styles ----- */
+
+ul.check,
+ul.cross,
+ul.arrow,
+ul.check ul,
+ul.arrow ul,
+ul.cross ul { padding: 0 0 0 5px; margin:0; }
+
+  ul.check li:before {
+    content: "\2713 \00a0\00a0";
+  }
+
+  ul.check li {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  ul.cross li:before {
+    content: "\03a7 \00a0\00a0";
+  }
+
+  ul.cross li {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  ul.arrow li:before {
+    content: "→ \00a0\00a0";
+  }
+
+  ul.arrow li {
+    list-style: none;
+    margin-left: 0;
+  }
+
+ul.square li { list-style-type: square }
+
+/* ----- Quotes ----- */
+
+blockquote.alignright { margin: -15px 0 9px 20px; float:right; }
+
+blockquote.alignleft {
+ float: left;
+ margin:-15px 20px 9px 0;
+}
+
+/* ----- Postlist ----- */
+
+.postlist { margin: 20px 0 }
+
+.postlist-post {
+ margin: 0 0 5px;
+ position: relative;
+}
+
+.postlist-post-date { position: absolute }
+
+.postlist-post-title { padding-left: 140px }
+
+/* ----- Toggle content ----- */
+
+.toggle-content {
+  background: #EFEFEF;
+  border: 1px solid #e3e3e3;
+ clear: both;
+ display: block;
+ margin: 20px 0 8px;
+}
+
+.toggle-content:hover { background: #ffc; }
+
+.toggle-content + .toggle-content { margin: 0 }
+
+.toggle-content .expand-button {
+ background: url(../images/toggle-bg.png) left top no-repeat;
+ cursor: pointer;
+ font-weight: 700;
+ overflow: hidden;
+}
+
+.toggle-content .expand-button.close {  background: url(../images/toggle-bg-close.png) left top no-repeat; }
+
+.toggle-content .expand-button p {
+ line-height: 40px;
+ margin: 0;
+ padding-left: 40px;
+}
+
+.toggle-content .expand {
+ margin: 0;
+ background: #fff;
+ line-height: 160%;
+ padding: 20px 20px 20px;
+}
+
+.toggle-content .expand { display: none }
+
+.no-js .toggle-content .expand { display: block }
+
+/* ----- Tabs ----- */
+
+.tabs li a {
+  margin-top: 10px;
+  background: #EFEFEF;
+  border: 1px solid #e3e3e3;
+  height: 32px;
+  line-height: 31px;
+  color: #888;
+  font-size: 13px;
+  padding: 0 14px 0 44px;
+  margin:0;
+  cursor: pointer;
+}
+.tabs_table { clear: both; margin:12px 0; }
+.tabs { padding: 0 0 0 1px !important; margin-bottom:-1px !important; margin-left:0; height: 34px; }
+.tabs li {
+  float: left;
+  list-style-type: none !important;
+  list-style-position: outside !important;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: -1px;
+  padding: 0 !important;
+}
+.tabs li a {
+  display: block;
+  float: left;
+  padding-left: 14px;
+  background: #EFEFEF;
+  margin: 0;
+}
+.tabs li a:hover { text-decoration: none; background: #ffc; color:#444; }
+.tabs li a.selected { background: #fff; border-bottom: #fff 1px solid; position: relative; color:#444; }
+.panes { border: 1px solid #e3e3e3; padding: 17px; line-height: 1.7em; }

@@ -1,0 +1,79 @@
+/*	-------------------------------------------------------------
+ 
+	THE AGENCY - BY OTOTW
+ 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Description:404 page style
+	Nom:404.css
+	Version:1.0
+	Date:April 27, 2011
+ 
+	This file is part of a site template for sale at ThemeForest.net.
+	See: http://themeforest.net/user/ototw/portfolio
+	Copyright © 2011 OTOTW
+ 
+-------------------------------------------------------------	*/
+
+@import url("screen.css");
+
+body {
+	font-size:62.5%;
+	line-height:1.25em;
+  	color: #999;
+	background: #202020 url("../images/bg_body_dark.jpg") repeat 0 -258px; }
+
+	body.home, body.page-template-projects-php {
+		background: #202020 url("../images/bg_body_dark.jpg") repeat top left; }
+
+header { display:none; }
+
+div#container {
+	margin:10% auto;
+	padding:0;
+	width: 960px;
+	box-shadow: none;
+	-o-box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	background:transparent; }
+
+	div#container #main {
+		text-align:center; }
+
+	div#container #main h1 {
+		font-size:8em;
+		line-height:100%;
+		color:#fff;
+		text-shadow:0 1px 1px #000; }
+
+		div#container #main div {
+			padding:5px;
+			text-align:center;
+			text-shadow:0 1px 1px #000; }
+
+			div#search {
+			    float:none;
+				margin:0 auto;
+				width: 250px;
+			    position: relative; }
+			
+			div#search #submit {
+				top:6px;
+				right:0px; }
+
+				div#search #input {
+					width: 250px;
+				    -moz-border-radius: 3px;
+				    -o-border-radius: 3px;
+				    -webkit-border-radius: 3px;
+					border-radius:3px;
+				    -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.08);
+				    -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.08);
+				    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.08);
+				    padding: 10px 7px 9px 7px;
+				    border: 1px solid #000;
+				    color: #444;
+				    font-style: italic; }
+
+footer { visibility:hidden; }
